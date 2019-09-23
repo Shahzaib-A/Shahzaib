@@ -1,4 +1,17 @@
 p{
-    color: blue;
-    font-size: 50px;
+    color:rgb(186,12,47);
+    font-size: 20px;
+
 }
+
+body{ 
+    background: rgb(255, 199,44);
+
+}
+#E{
+    width: 100%;
+    height: auto;
+    
+}
+button1 {background-color: red;}
+

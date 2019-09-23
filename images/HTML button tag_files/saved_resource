@@ -1,0 +1,21 @@
+
+var ftGUID_3617021="4271CD679CCA79";
+var ftConfID_3617021="0";
+var ftParams_3617021="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.w3schools.com%2Ftags%2Ftag_button.asp&ft_section=__68677837700031635081128388467665213227&cachebuster=660964.3904508584";
+var ftKeyword_3617021="";
+var ftCustom_3617021="";
+var ftSection_3617021="__68677837700031635081128388467665213227";
+var ftSegment_3617021="w2c";
+var ftSegmentList_3617021=[{s:'w2c'}];
+var ftRuleMatch_3617021="0";
+var ftTimestamp_3617021="1569243142";
+var ftImp3617021 = {};
+ftImp3617021.privacy = "x";
+ftImp3617021.guidAge = "12";
+ftImp3617021.impID = "1048FA74-A992-A67B-8466-FBB0761BE752";
+ftImp3617021.duid = "FT:4271CD679CCA79";
+
+ftImp3617021.ft_tpplid = "";
+ftImp3617021.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/361/3617021/2780300/js/j-3617021-2780300.js" id="ftscript_m3617021" name="ftscript_m3617021"></scr'+'ipt>');
