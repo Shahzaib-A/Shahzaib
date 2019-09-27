@@ -23,7 +23,7 @@ h1{
 
 }
 p{
-   font-style: normal;
+   font-style: inherit;
    color: blue;
 
 
