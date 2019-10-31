@@ -23,7 +23,7 @@ h1{
 
 }
 p{
-   font-style: inherit;
+   font-style: times new roman;
    color: blue;
 
 
@@ -58,4 +58,22 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+  }
+  {p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+   {
+     {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
   }
