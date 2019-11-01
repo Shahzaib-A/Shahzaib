@@ -23,7 +23,7 @@ h1{
 
 }
 p{
-   font-style: times new roman;
+   font-family;: Ariel, Helvetica, sans-serif;
    color: blue;
 
 
@@ -46,7 +46,7 @@ ul {
   li {
     float: left;
   }
-  
+    
   li a {
     display: block;
     color: white;
