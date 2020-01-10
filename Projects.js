@@ -34,7 +34,7 @@ function encrypt(){
     let ciphertext = '';
     ciphertext = plaintext.replace(/b/g,'D1').replace(/a/g,'D5').replace (/c/g,'D2').replace(/d/g,'D9').replace(/e/g,'D26').replace(/f/g,"D14").replace(/g/g,'D8').replace(/h/g,'D7').replace(/i/g,'D4').replace(/j/g,'D17').replace(/k/g,'D10').replace(/l/g,'D3').replace(/m/g,'D15').replace(/n/g,'D12').replace(/o/g,'D13').replace(/p/g,'D25').replace(/q/g,'D16').replace(/r/g,'D19').replace(/s/g,'D23').replace(/t/g,'D21').replace(/u/g,'D24').replace(/v/g,'D18').replace(/w/g,'D20').replace(/x/g,'D11').replace(/y/g,'D22').replace(/z/g,'D18')
     console.log(ciphertext);
-    
+    documen
   }
   
   decrypt();
@@ -42,5 +42,6 @@ function encrypt(){
   function decrypt(){
     let plaintext = prompt('Type encrypted text here')
     let ciphertext = '';
-    ciphertext = plaintext.replace(''='').replace('f')
+    ciphertext = plaintext.replace(/D1/g,'b').replace(/D5/g,'a').replace
+
   }
