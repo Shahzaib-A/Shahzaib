@@ -32,9 +32,9 @@ function tenfour(){
 function encrypt(){
     let plaintext = prompt('Type plaintext here'):
     let ciphertext = '';
-    ciphertext = plaintext.replace(/b/g,'D1').replace(/a/g,'D5').replace (/c/g,'D2').replace(/d/g,'D9').replace(/e/g,'D26').replace(/f/g,"D14").replace(/g/g,'D8').replace(/h/g,'D7').replace(/i/g,'D4').replace(/j/g,'D17').replace(/k/g,'D10').replace(/l/g,'D3').replace(/m/g,'D15').replace(/n/g,'D12').replace(/o/g,'D13').replace(/p/g,'D25').replace(/q/g,'D16').replace(/r/g,'D19').replace(/s/g,'D23').replace(/t/g,'D21').replace(/u/g,'D24').replace(/v/g,'D18').replace(/w/g,'D20').replace(/x/g,'D11').replace(/y/g,'D22').replace(/z/g,'D18')
+    ciphertext = plaintext.replace(/b/g,'D1').replace(/a/g,'D5').replace (/c/g,'D2').replace(/d/g,'D9').replace(/e/g,'D26').replace(/f/g,'D14').replace(/g/g,'D8').replace(/h/g,'D7').replace(/i/g,'D4').replace(/j/g,'D17').replace(/k/g,'D10').replace(/l/g,'D3').replace(/m/g,'D15').replace(/n/g,'D12').replace(/o/g,'D13').replace(/p/g,'D25').replace(/q/g,'D16').replace(/r/g,'D19').replace(/s/g,'D23').replace(/t/g,'D21').replace(/u/g,'D24').replace(/v/g,'D18').replace(/w/g,'D20').replace(/x/g,'D11').replace(/y/g,'D22').replace(/z/g,'D18')
     console.log(ciphertext);
-    documen
+    document.getElementById("ciphertext").innerHTML = ciphertext;
   }
   
   decrypt();
@@ -42,6 +42,6 @@ function encrypt(){
   function decrypt(){
     let plaintext = prompt('Type encrypted text here')
     let ciphertext = '';
-    ciphertext = plaintext.replace(/D1/g,'b').replace(/D5/g,'a').replace
-
+    ciphertext = plaintext.replace(/D1/g,'b').replace(/D5/g,'a').replace(/D2/g,'c').replace(/D9/g,'d').replace(/D26/g,'e').replace(/f/g,'D14').replace(/D9/g,'g').replace(/D7/g,'h').replace(/D4/g,'i').replace(/D17/g,'j').replace(/k/g,'D10').replace(/l/g,'D3').replace(/m/g,'D15').replace(/n/g,'D12').replace(/o/g,'D13').replace(/p/g,'D25').replace(/q/g,'D16').replace(/r/g,'D19').replace(/s/g,'D23').replace(/t/g,'D21').replace(/u/g,'D24').replace(/v/g,'D18').replace(/w/g,'D20').replace(/x/g,'D11').replace(/y/g,'D22').replace(/z/g,'D6')
+    document.getElementById("ciphertext").innerHTML = ciphertext;
   }
