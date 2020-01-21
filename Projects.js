@@ -42,6 +42,6 @@ function encrypt(){
   function decrypt(){
     let plaintext = prompt('Type encrypted text here');
     let ciphertext = '';
-    ciphertext = plaintext.replace(/D1/g,'b').replace(/D5/g,'a').replace(/D2/g,'c').replace(/D9/g,'d').replace(/D26/g,'e').replace(/f/g,'D14').replace(/D9/g,'g').replace(/D7/g,'h').replace(/D4/g,'i').replace(/D17/g,'j').replace(/k/g,'D10').replace(/l/g,'D3').replace(/m/g,'D15').replace(/n/g,'D12').replace(/o/g,'D13').replace(/p/g,'D25').replace(/q/g,'D16').replace(/r/g,'D19').replace(/s/g,'D23').replace(/t/g,'D21').replace(/u/g,'D24').replace(/v/g,'D18').replace(/w/g,'D20').replace(/x/g,'D11').replace(/y/g,'D22').replace(/z/g,'D6')
+    ciphertext = plaintext.replace(/D1/g,'b').replace(/D5/g,'a').replace(/D2/g,'c').replace(/D9/g,'d').replace(/D26/g,'e').replace(/f/g,'D14').replace(/D9/g,'g').replace(/D7/g,'h').replace(/D4/g,'i').replace(/D17/g,'j').replace(/k/g,'D10').replace(/l/g,'D3').replace(/D15/g,'m').replace(/D12/g,'n').replace(/D13/g,'o').replace(/D25/g,'p').replace(/D16/g,'q').replace(/D19/g,'r').replace(/D23/g,'s').replace(/D21/g,'t').replace(/D24/g,'u').replace(/D18/g,'v').replace(/D20/g,'w').replace(/D11/g,'x').replace(/D22/g,'y').replace(/D6/g,'z')
     document.getElementById("ciphertext").innerHTML = ciphertext;
   }
